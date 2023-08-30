@@ -17,3 +17,4 @@ data2 = [
 
 arr2 = np.array(data2)
 print(arr2)
+data3 = [1.2, 3, 4]
