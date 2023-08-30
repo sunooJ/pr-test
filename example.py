@@ -1,9 +1,14 @@
 import numpy as np
 
-data = [1,2,3]
-arr = np.array(data)
-result = []
-for i in data:
-    result.append(i*10)
+data = [1,2,3,4]
 
-print(result)
+arr1 = np.array(data)
+print(arr1)
+
+data2 = [
+    [1,2],
+    [3,4]
+]
+
+arr2 = np.array(data2)
+print(arr2)
