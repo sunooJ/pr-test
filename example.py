@@ -1,9 +1,14 @@
 import numpy as np
 
-data = [1,2,3,4]
+data = [
+    [1],
+    [2],
+    [3],
+    [4]
+]
 
-arr1 = np.array(data)
-print(arr1)
+c = np.array(data)
+print(c,shape)
 
 data2 = [
     [1,2],
